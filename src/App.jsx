@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import Overlay from "./components/overlay/Overlay";
 import Scene from "./components/scene/Scene";
+import { Loader } from "@react-three/drei";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       >
         <Scene />
       </Canvas>
+      <Loader />
     </>
   );
 };
